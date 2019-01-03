@@ -2,6 +2,8 @@ Role Name
 =========
 
 This role allows to create, compile and include SELinux modules
+This is a copy of https://github.com/MWojtowicz/ansible-semodule 
+I simply added my own template to the module for shibboleth
 
 Requirements
 ------------
