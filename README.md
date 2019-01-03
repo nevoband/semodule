@@ -12,10 +12,11 @@ It requires Development tools (`yum groupinstall "Development tools"`)
 
 Role Variables
 --------------
-
+````yml
 #SELinux Settings
 selinux_modules:
   - name: mod_shib-to-shibd
+````
 
 Example Playbook
 ----------------
