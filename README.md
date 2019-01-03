@@ -13,16 +13,16 @@ It requires Development tools (`yum groupinstall "Development tools"`)
 Role Variables
 --------------
 
+#SELinux Settings
 selinux_modules:
-  - name: "module1"
-    template: "use_only_if_template_name_is_different_than_module_name"
+  - name: mod_shib-to-shibd
 
 Example Playbook
 ----------------
 
     - hosts: servers
       roles:
-         - { role: MWojtowicz.semodule }
+         - { role: semodule }
 
 License
 -------
